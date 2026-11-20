@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" F ", "FEF", " F "],
+  "key": {
+    "F": {"item": "minecraft:phantom_membrane"},
+    "E": {"item": "minecraft:ender_pearl"}
+  },
+  "result": {"item": "adaptivemobs:gravity_thread", "count": 1}
+}

@@ -1,0 +1,9 @@
+{
+  "item.adaptivemobs.void_prism": "Void Prism",
+  "item.adaptivemobs.aegis_core": "Aegis Core",
+  "item.adaptivemobs.pulse_seal": "Pulse Seal",
+  "item.adaptivemobs.gravity_thread": "Gravity Thread",
+  "effect.adaptivemobs.aether": "Aether Charge",
+  "message.adaptivemobs.stage_up": "Threat evolution: stage %s",
+  "message.adaptivemobs.artifact_found": "A magical artifact was found in the chest!"
+}

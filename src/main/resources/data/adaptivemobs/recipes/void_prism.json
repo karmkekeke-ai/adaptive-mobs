@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["ADA", "DCD", "ADA"],
+  "key": {
+    "A": {"item": "minecraft:amethyst_shard"},
+    "D": {"item": "minecraft:diamond"},
+    "C": {"item": "minecraft:crying_obsidian"}
+  },
+  "result": {"item": "adaptivemobs:void_prism", "count": 1}
+}

@@ -1,0 +1,9 @@
+{
+  "item.adaptivemobs.void_prism": "Призма Пустоты",
+  "item.adaptivemobs.aegis_core": "Ядро Эгиды",
+  "item.adaptivemobs.pulse_seal": "Печать Импульса",
+  "item.adaptivemobs.gravity_thread": "Нить Гравитации",
+  "effect.adaptivemobs.aether": "Эфирный заряд",
+  "message.adaptivemobs.stage_up": "Эволюция угрозы: стадия %s",
+  "message.adaptivemobs.artifact_found": "В сундуке обнаружен магический артефакт!"
+}
