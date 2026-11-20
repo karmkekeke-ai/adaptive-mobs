@@ -1,0 +1,32 @@
+name: Build Mod
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Скачать код
+      uses: actions/checkout@v4
+
+    - name: Установить Java 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+
+    - name: Дать права на запуск Gradle
+      run: chmod +x gradlew
+
+    - name: Собрать JAR файл
+      run: ./gradlew build
+
+    - name: Сохранить готовый мод
+      uses: actions/upload-artifact@v4
+      with:
+        name: mod-1.20.1
+        path: build/libs/*.jar
