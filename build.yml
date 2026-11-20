@@ -19,11 +19,13 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
-    - name: Дать права на запуск Gradle
-      run: chmod +x gradlew
+    - name: Настроить Gradle
+      uses: gradle/actions/setup-gradle@v4
+      with:
+        gradle-version: '8.8'
 
     - name: Собрать JAR файл
-      run: ./gradlew build
+      run: gradle build
 
     - name: Сохранить готовый мод
       uses: actions/upload-artifact@v4
